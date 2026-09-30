@@ -1,5 +1,12 @@
 {
     "markdown.validate.enabled": true,
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+
+    // Keep git sync behaviour identical when this sub-folder is opened directly.
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autorefresh": true
 }

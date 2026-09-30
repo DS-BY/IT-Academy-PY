@@ -1,0 +1,9 @@
+{
+    // Git sync scope for this project: everything inside this folder is tracked,
+    // including brand-new files. See .gitignore (all rules disabled on purpose).
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autorefresh": true
+}
