@@ -2,6 +2,9 @@
 
 Ноутбук с решениями задач занятия 3.
 
+Репозиторий повторяет структуру курса: `Lesson 3/tasks` — условия задач,
+`Lesson 3/solution` — решения.
+
 ## Содержимое
 
 | Файл | Описание |
@@ -18,21 +21,26 @@
 
 ```bash
 git clone https://github.com/DS-BY/IT-Academy-PY.git
-cd IT-Academy-PY/solution
+cd "IT-Academy-PY/Lesson 3/solution"
 ```
 
-Структура репозитория:
+Структура репозитория (повторяет локальную структуру курса):
 
 ```
 IT-Academy-PY/
 ├── .gitignore
-└── solution/
-    ├── lesson_3.ipynb
-    ├── requirements.txt
-    └── README.md
+└── Lesson 3/
+    ├── tasks/                  условия задач (файлы-заготовки)
+    │   ├── abbreviation.py
+    │   ├── calculator.py
+    │   └── hints/              подсказки к задачам
+    └── solution/               решения
+        ├── lesson_3.ipynb
+        ├── requirements.txt
+        └── README.md
 ```
 
-Все команды ниже выполняются из папки `solution`.
+Все команды ниже выполняются из папки `Lesson 3/solution`.
 
 ### 2. Создать окружение и установить зависимости
 
