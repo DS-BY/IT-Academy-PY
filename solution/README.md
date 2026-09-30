@@ -18,20 +18,21 @@
 
 ```bash
 git clone https://github.com/DS-BY/IT-Academy-PY.git
-cd "IT-Academy-PY/LESSON_3_tasks"
+cd IT-Academy-PY/solution
 ```
 
 Структура репозитория:
 
 ```
 IT-Academy-PY/
-└── LESSON_3_tasks/
+├── .gitignore
+└── solution/
     ├── lesson_3.ipynb
     ├── requirements.txt
     └── README.md
 ```
 
-Все команды ниже выполняются из папки `LESSON_3_tasks`.
+Все команды ниже выполняются из папки `solution`.
 
 ### 2. Создать окружение и установить зависимости
 
