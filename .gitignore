@@ -1,21 +1,28 @@
+# ---------------------------------------------------------------------------
+# Git sync scope: ALL files inside this folder are tracked and synced.
+# Every rule below is intentionally disabled (commented out) so that nothing
+# under this project is skipped by `git add -A` / commit / push.
+# Uncomment a rule only if you want that kind of file excluded again.
+# ---------------------------------------------------------------------------
+
 # Python
-__pycache__/
-*.py[cod]
-*.egg-info/
+# __pycache__/
+# *.py[cod]
+# *.egg-info/
 
 # Jupyter
-.ipynb_checkpoints/
+# .ipynb_checkpoints/
 
 # Virtual environments
-.venv/
-venv/
-env/
-ENV/
+# .venv/
+# venv/
+# env/
+# ENV/
 
 # IDE / editors
-.vscode/
-.idea/
+# .vscode/
+# .idea/
 
 # OS
-.DS_Store
-Thumbs.db
+# .DS_Store
+# Thumbs.db
